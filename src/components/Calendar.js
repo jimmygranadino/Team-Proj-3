@@ -53,7 +53,14 @@ export default function Calendar(props) {
                     <FullCalendar
                     plugins={[ dayGridPlugin ]}
                     initialView="dayGridMonth"
-                    
+                    events={[
+                        { title: 'HERSHEY FELDER - ANNA & SERGEI', date: '2020-08-01' },
+                        { title: 'HERSHEY FELDER - ANNA & SERGEI', date: '2020-08-02' },
+                        { title: 'FRIDAY LIVE MUSIC', date: '2020-07-31' },
+                        { title: 'HERSHEY FELDER - ANNA & SERGEI', date: '2020-07-31' },
+                        { title: 'HERSHEY FELDER', date: '2020-07-31' },
+                        { title: 'MISSION OPERA GALA FUNDRAISER', date: '2020-10-17' }
+                      ]}
                     />
                 </div>
             </div>
