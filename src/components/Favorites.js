@@ -33,7 +33,7 @@ export default function Favorites(props) {
                     <h3 id="calendar-title">Upcoming Events</h3>
                     <div id="events-display-container">
                         <FavoritesDisplay favorites={favorites} />
-                        {JSON.stringify(props.user)}
+                        {JSON.stringify(props.user.favorite)}
                     </div>
                 </div>
                 <div class="col-6">
