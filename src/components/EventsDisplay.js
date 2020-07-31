@@ -29,6 +29,7 @@ const EventsDisplay = (props) => {
             }
 
     let handleAdd = (e) => {
+        e.preventDefault()
         let newFavorite = {
             email: user.email,
             value: eventful.id
@@ -43,6 +44,7 @@ const EventsDisplay = (props) => {
     }
 
     let handleRemove = (e) => {
+        e.preventDefault()
         let removeFavorite = {
             email: user.email,
             value: eventful.id
